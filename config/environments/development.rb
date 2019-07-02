@@ -32,7 +32,7 @@ Rails.application.configure do
 #######
   #I was told to comment off the code below because it was throwing an erro
 
-  # config.middleware.use RackSessionAccess::Middleware
+  config.middleware.use RackSessionAccess::Middleware
 ########
 
   config.action_mailer.perform_caching = false
