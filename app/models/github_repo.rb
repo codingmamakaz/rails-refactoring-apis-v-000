@@ -1,4 +1,4 @@
-class GithubRepo < ApplicationRecord
+class GithubRepo 
 
   attr_reader :name, :url
 
